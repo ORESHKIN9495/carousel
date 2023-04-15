@@ -27,9 +27,9 @@ const xTimeout = () => {
     clearTimeout(xTimeout);
   }
 
-  setTimeout(xTimeout, 2000);
+  setTimeout(xTimeout, 3000);
 };
 
-setTimeout(yTimeout, 1000);
+setTimeout(yTimeout, 2000);
 
-setTimeout(xTimeout, 1000);
+setTimeout(xTimeout, 3000);
